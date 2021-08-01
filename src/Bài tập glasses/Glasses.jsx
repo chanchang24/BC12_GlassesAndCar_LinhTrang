@@ -33,7 +33,7 @@ export default class Glasses extends Component {
         const { name, url, desc } = this.state;
         return (
             <div className=" container-fluid model__main ">
-                <div className="card glasses justify-content-around col-3">
+                <div className="card glasses__model justify-content-around col-3">
                 
                     <div className="card-body card__body " id="bodyCard">        
                     <img src={url} className="card-img-top img-fluid img__glass" alt="" />

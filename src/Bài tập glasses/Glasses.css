@@ -5,7 +5,7 @@
     display: none;
     left: 0;
 }
-.card{
+.glasses__model{
     background-image: url(./glassesImage/model.jpg);
     background-position: center;
     background-repeat: no-repeat;
