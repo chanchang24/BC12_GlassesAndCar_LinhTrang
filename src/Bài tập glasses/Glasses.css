@@ -6,7 +6,7 @@
     left: 0;
 }
 .glasses__model{
-    background-image: url(./glassesImage/model.jpg);
+    background-image: url(./model.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@
     right: 60px;
 }
 .model__main{
-    background-image: url(./glassesImage/background.jpg);
+    background-image: url(./background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

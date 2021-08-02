@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Glasses.css';
-import data from './dataGlasses.json'
+import data from './dataGlasses.json';
+
 
 
 
@@ -8,7 +9,7 @@ export default class Glasses extends Component {
     state = {
         name: '',
         url: '',
-        desc: ' '
+        desc: ''
     }
     changeGlasses = (name, url, desc) => {
         this.setState({
@@ -33,8 +34,7 @@ export default class Glasses extends Component {
         const { name, url, desc } = this.state;
         return (
             <div className=" container-fluid model__main ">
-                <div className="card glasses__model justify-content-around col-3">
-                
+                <div className="card glasses__model  col-3">
                     <div className="card-body card__body " id="bodyCard">        
                     <img src={url} className="card-img-top img-fluid img__glass" alt="" />
                         <h6 className="card-title">{name}</h6>
